@@ -132,6 +132,10 @@ h2 {
   font-size: 2em;
 }
 
+.title {
+  font-family: 'Dosis', cursive;
+}
+
 .fa-chevron-down {
   color: #ff0c00;
   font-size: 4em;
