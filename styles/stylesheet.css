@@ -132,8 +132,29 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  font-family: 'Kaushan Script', cursive;
+  margin-top: -2.2em;
+  /* padding-right: 1em; */
+  font-size: 1.5em;
+}
+
+h4 {
+  color: black;
+  margin-bottom: 15px;
+  font-size: 1.7em;
+  font-family: 'Dosis', cursive;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
 .title {
   font-family: 'Dosis', cursive;
+}
+
+.logo {
+  max-width: 100px;
+  float: right;
 }
 
 .fa-chevron-down {
@@ -148,7 +169,7 @@ h2 {
 
 .downArrow {
   text-align: center;
-  margin-top: 12em;
+  margin-top: 15em;
 }
 
 html {
@@ -161,17 +182,10 @@ html {
 
 .column {
   float: left;
-  width: 33.3%;
+  width: 25%;
   margin-bottom: 16px;
   padding: 0 8px;
   margin-top: 25px;
-}
-
-@media (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
 }
 
 .card {
@@ -227,4 +241,22 @@ html {
 .profileCards {
   background-color: white;
   padding-top: 30px;
+}
+
+footer {
+  border-top: 2px solid white;
+  font-family: 'Dosis', cursive;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightText {
+  text-align: right;
+}
+
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+  }
 }
