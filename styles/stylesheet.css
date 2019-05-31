@@ -534,6 +534,7 @@ table .col{
 
   .parent {
     grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 0px;
   }
 
   .child {
