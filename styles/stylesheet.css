@@ -560,4 +560,60 @@ table .col{
     object-fit: cover;
   }
 
+  .ptable table{
+  	border-collapse: collapse;
+  }
+
+  th, td {
+      padding: 5px 0px;
+  }
+
+  th{
+  	background-color: #EB2D2A;
+  	color: white;
+  }
+
+  .headin{
+  	text-align: center;
+  	text-decoration: none;
+  	color: #EB2D2A;
+  	margin: 1px;
+  	display: block;
+  }
+
+  .wpos{
+  	text-align: center;
+  }
+
+  .wpos td{
+  	color: #EB2D2A;
+  }
+
+  .pos{
+  	text-align: center;
+  }
+
+  .pos td{
+  	color: #EB2D2A;
+  }
+
+  table .col{
+  	border-bottom: 1px solid #FFFFFF;
+  }
+
+  .wpos:hover{
+  	background-color: #EB2D2A;
+  }
+
+  .wpos:hover td{
+    color: white;
+  }
+
+  .pos:hover{
+  	background-color: #EB2D2A;
+  }
+
+  .pos:hover td{
+  	color: white;
+  }
 }
