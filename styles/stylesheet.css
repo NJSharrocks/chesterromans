@@ -15,7 +15,7 @@ body {
 
 
 header {
-  height: 100vh;
+  height: 95vh;
   background-image: linear-gradient(0deg,rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url(../images/cotton.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,9 +162,8 @@ h4 {
 
 .Hickorys {
   height: 150px;
-  bottom: 10px;
+  bottom: 30px;
   position: absolute;
-  right: 10px;
 }
 
 .column {
@@ -275,6 +274,25 @@ p {
     padding-left: 20px;
     color: white;
 
+}
+
+.list {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2em;
+    padding-left: 20px;
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.list a {
+  color: white;
+  text-decoration: none;
+}
+
+.list a:hover {
+  color: red;
+  background-color: white;
 }
 
 .intro {
@@ -429,7 +447,7 @@ table .col{
   }
 
   header {
-    height: 150vh;
+    height: 95vh;
   }
 
   .navbar {
@@ -506,9 +524,7 @@ table .col{
 
   .Hickorys {
     height: 90px;
-    bottom: -155px;
     position: absolute;
-    right: 10px;
   }
 
   .container {
@@ -566,7 +582,7 @@ table .col{
   }
 
   th, td {
-      padding: 5px 0px;
+      padding: 5px 5px;
   }
 
   th{
